@@ -3,270 +3,671 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kasbah Safari Rose | Kelaat M'Gouna</title>
-  <meta name="description" content="Elegant hotel website concept for Kasbah Safari Rose in the Rose Valley near Kelaat M'Gouna and Boumalne Dades, Morocco." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+
+  <title>Kasbah Safari Rose | Boutique Stay in the Valley of Roses</title>
+  <meta
+    name="description"
+    content="Experience an authentic Moroccan stay at Kasbah Safari Rose in the Valley of Roses near Kelaat M'Gouna. Discover elegant rooms, Berber charm, mountain views, and a peaceful escape in southern Morocco."
+  />
+  <meta
+    name="keywords"
+    content="Kasbah Safari Rose, Kelaat M'Gouna hotel, Valley of Roses hotel, Morocco kasbah, boutique hotel Morocco, Kasbah des Roses, Tinghir accommodation"
+  />
+  <meta name="author" content="Kasbah Safari Rose" />
+  <meta name="theme-color" content="#111111" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kasbah Safari Rose | Boutique Stay in the Valley of Roses" />
+  <meta
+    property="og:description"
+    content="A refined Moroccan stay in the heart of the Valley of Roses, near Kelaat M'Gouna."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/hero-kasbah-safari-rose.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS file -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="site-shell">
-    <header class="topbar" id="top">
-      <a class="brand" href="#top">
-        <span class="brand-mark">K</span>
-        <span>
+  <!-- =========================
+       HEADER
+  ========================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Kasbah Safari Rose Home">
+        <span class="logo-mark">K</span>
+        <span class="logo-text">
           <strong>Kasbah Safari Rose</strong>
-          <small>Rose Valley · Morocco</small>
+          <small>Valley of Roses, Morocco</small>
         </span>
       </a>
 
-      <nav class="nav">
-        <a href="#experience">Experience</a>
-        <a href="#rooms">Stay</a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#stay">Stay</a>
         <a href="#gallery">Gallery</a>
+        <a href="#experience">Experience</a>
         <a href="#location">Location</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <a class="btn btn-dark desktop-only" href="https://wa.me/212608827761" target="_blank" rel="noopener">WhatsApp</a>
-      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
-    </header>
+      <div class="header-actions">
+        <a class="btn btn-outline" href="tel:+212661935025">Call Now</a>
+        <a class="btn btn-dark" href="https://wa.me/212661935025" target="_blank" rel="noopener">
+          WhatsApp
+        </a>
+      </div>
 
-    <div class="mobile-menu" id="mobileMenu">
-      <a href="#experience">Experience</a>
-      <a href="#rooms">Stay</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#location">Location</a>
-      <a href="#contact">Contact</a>
-      <a class="btn btn-dark" href="https://wa.me/212608827761" target="_blank" rel="noopener">WhatsApp</a>
+      <button class="mobile-menu-toggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO / LANDING PAGE
+  ========================== -->
+  <section class="hero">
+    <div class="hero-media">
+      <!-- Replace this with the main real hotel photo -->
+      <img
+        src="assets/hero-kasbah-safari-rose.jpg"
+        alt="Kasbah Safari Rose in the Valley of Roses"
+      />
     </div>
 
-    <main>
-      <section class="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-overlay"></div>
+    <div class="hero-overlay"></div>
 
-        <div class="hero-content reveal">
-          <p class="eyebrow">Boutique stay in the Valley of Roses</p>
-          <h1>A refined desert-kasbah escape between Kelaat M'Gouna and Boumalne Dades.</h1>
-          <p class="hero-text">
-            A luxury-style landing page concept for <strong>Kasbah Safari Rose</strong>, designed to feel premium,
-            calm, and cinematic—perfect for direct bookings, WhatsApp inquiries, and international guests.
-          </p>
+    <div class="container hero-content">
+      <div class="hero-badge">Boutique Kasbah Stay · Valley of Roses</div>
 
-          <div class="hero-actions">
-            <a class="btn btn-dark" href="#contact">Book / Contact</a>
-            <a class="btn btn-light" href="#gallery">View Gallery</a>
+      <h1>
+        Timeless Moroccan charm
+        <span>between Kelaat M'Gouna and Boumalne Dades</span>
+      </h1>
+
+      <p class="hero-text">
+        Welcome to Kasbah Safari Rose — a peaceful retreat where authentic Berber
+        architecture, warm hospitality, desert light, and mountain views come together
+        in the heart of southern Morocco.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-light" href="#contact">Book Your Stay</a>
+        <a class="btn btn-glass" href="#gallery">Explore the Property</a>
+      </div>
+
+      <div class="hero-details">
+        <div class="hero-detail">
+          <strong>Location</strong>
+          <span>Hdida · Kelaat M'Gouna · Tinghir</span>
+        </div>
+        <div class="hero-detail">
+          <strong>Phone</strong>
+          <span>+212 661 935025</span>
+        </div>
+        <div class="hero-detail">
+          <strong>Atmosphere</strong>
+          <span>Authentic · Quiet · Scenic</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- =========================
+       INTRO STRIP
+  ========================== -->
+  <section class="intro-strip">
+    <div class="container intro-strip-grid">
+      <article>
+        <span class="mini-label">Authentic Stay</span>
+        <h3>Traditional kasbah spirit</h3>
+        <p>
+          A refined local experience inspired by the architecture, textures, and calm
+          beauty of the Valley of Roses.
+        </p>
+      </article>
+
+      <article>
+        <span class="mini-label">Ideal Setting</span>
+        <h3>Near the Route of a Thousand Kasbahs</h3>
+        <p>
+          A perfect stop for travelers exploring Kelaat M'Gouna, the Dades Valley,
+          Todra Gorge, and the desert routes of southern Morocco.
+        </p>
+      </article>
+
+      <article>
+        <span class="mini-label">Natural Beauty</span>
+        <h3>Landscapes of roses and mountains</h3>
+        <p>
+          Surrounded by desert tones, palm groves, rose fields, and dramatic rocky
+          scenery that makes this region unforgettable.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- =========================
+       ABOUT
+  ========================== -->
+  <section class="section about-section" id="about">
+    <div class="container two-column">
+      <div class="section-media reveal">
+        <img
+          src="assets/about-kasbah-safari-rose.jpg"
+          alt="Traditional Moroccan architecture at Kasbah Safari Rose"
+        />
+      </div>
+
+      <div class="section-content reveal">
+        <span class="section-kicker">About the Kasbah</span>
+        <h2>Where authenticity meets comfort</h2>
+        <p>
+          Kasbah Safari Rose offers an intimate and soulful stay in one of Morocco’s
+          most beautiful regions. Inspired by the character of the local kasbahs,
+          the property welcomes guests with warm earth-toned architecture, peaceful
+          terraces, garden spaces, and a relaxed atmosphere rooted in Berber heritage.
+        </p>
+        <p>
+          Whether you are planning a romantic escape, a scenic road trip, or a quiet
+          stop on your desert journey, the kasbah is designed to help you slow down
+          and experience the true rhythm of the Valley of Roses.
+        </p>
+
+        <div class="feature-list">
+          <div class="feature-item">
+            <h4>Authentic architecture</h4>
+            <p>Traditional style with a warm, elegant, local identity.</p>
           </div>
-
-          <div class="hero-cards">
-            <article>
-              <span>Location</span>
-              <strong>Rose Valley, near Kelaat M'Gouna</strong>
-            </article>
-            <article>
-              <span>Atmosphere</span>
-              <strong>Kasbah charm · mountain calm · desert light</strong>
-            </article>
-            <article>
-              <span>Best for</span>
-              <strong>Travelers, couples, road trips, desert circuits</strong>
-            </article>
+          <div class="feature-item">
+            <h4>Quiet surroundings</h4>
+            <p>Ideal for relaxation, photography, and meaningful travel moments.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Southern Morocco gateway</h4>
+            <p>Perfectly placed for discovering valleys, kasbahs, and desert landscapes.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <section class="intro-grid section reveal" id="experience">
-        <div>
-          <p class="eyebrow">Why this website works</p>
-          <h2>Built to make the hotel feel more valuable, more trustworthy, and easier to book.</h2>
-        </div>
-        <div>
-          <p>
-            This design combines a luxury hotel landing page, fast WhatsApp contact, a clear map section,
-            elegant image presentation, and strong visual storytelling about the Rose Valley and Dades region.
-          </p>
-        </div>
-      </section>
+  <!-- =========================
+       STAY / ROOMS
+  ========================== -->
+  <section class="section stay-section" id="stay">
+    <div class="container">
+      <div class="section-heading center reveal">
+        <span class="section-kicker">Stay</span>
+        <h2>Rooms designed for rest and simplicity</h2>
+        <p>
+          Calm interiors, local textures, and a welcoming atmosphere designed to make
+          every stay feel personal.
+        </p>
+      </div>
 
-      <section class="stats section reveal">
-        <article>
-          <span>01</span>
-          <h3>Luxury first impression</h3>
-          <p>Large cinematic hero image, elegant typography, and high-end spacing to immediately increase perceived quality.</p>
+      <div class="cards-grid stay-grid">
+        <article class="stay-card reveal">
+          <div class="stay-card-image">
+            <img src="assets/room-1.jpg" alt="Double room at Kasbah Safari Rose" />
+          </div>
+          <div class="stay-card-content">
+            <h3>Classic Double Room</h3>
+            <p>
+              A comfortable and elegant space for couples or solo travelers looking
+              for peace, privacy, and authentic Moroccan character.
+            </p>
+            <ul>
+              <li>Comfortable bedding</li>
+              <li>Traditional interior details</li>
+              <li>Ideal for short or extended stays</li>
+            </ul>
+          </div>
         </article>
-        <article>
-          <span>02</span>
-          <h3>Direct contact</h3>
-          <p>Phone and WhatsApp call-to-actions appear in multiple places so guests can contact the hotel quickly.</p>
+
+        <article class="stay-card reveal">
+          <div class="stay-card-image">
+            <img src="assets/room-2.jpg" alt="Family room at Kasbah Safari Rose" />
+          </div>
+          <div class="stay-card-content">
+            <h3>Family Room</h3>
+            <p>
+              Spacious and practical, ideal for families or small groups traveling
+              through the Valley of Roses and southern Morocco.
+            </p>
+            <ul>
+              <li>More room to relax</li>
+              <li>Warm atmosphere</li>
+              <li>Perfect for family travel</li>
+            </ul>
+          </div>
         </article>
-        <article>
-          <span>03</span>
-          <h3>Google Maps ready</h3>
-          <p>A live embedded map makes it easier for travelers, guides, and drivers to find the property.</p>
+
+        <article class="stay-card reveal">
+          <div class="stay-card-image">
+            <img src="assets/room-3.jpg" alt="Scenic room at Kasbah Safari Rose" />
+          </div>
+          <div class="stay-card-content">
+            <h3>Scenic Kasbah Room</h3>
+            <p>
+              A room crafted for travelers who value landscape, texture, silence,
+              and the feeling of staying somewhere truly special.
+            </p>
+            <ul>
+              <li>Charming local style</li>
+              <li>Relaxing ambiance</li>
+              <li>Ideal for couples and explorers</li>
+            </ul>
+          </div>
         </article>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <section class="split section reveal" id="rooms">
-        <div class="split-media card-image image-one"></div>
-        <div class="split-copy">
-          <p class="eyebrow">Stay</p>
-          <h2>A warm stop in one of Morocco’s most memorable travel corridors.</h2>
+  <!-- =========================
+       HIGHLIGHTS
+  ========================== -->
+  <section class="section highlights-section">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-kicker">Highlights</span>
+        <h2>The experience you can expect</h2>
+      </div>
+
+      <div class="highlights-grid">
+        <article class="highlight-card reveal">
+          <span class="highlight-number">01</span>
+          <h3>Mountain and valley atmosphere</h3>
           <p>
-            Positioned for travelers exploring the Rose Valley, Dades landscapes, and Merzouga routes,
-            Kasbah Safari Rose is presented here as a comfortable, atmospheric hotel with a pool,
-            relaxing evenings, and traditional hospitality.
+            Wake up to the textures and colors of southern Morocco, where palm groves,
+            kasbah walls, and rocky horizons create a cinematic setting.
           </p>
-          <ul class="feature-list">
-            <li>Elegant kasbah-style presentation</li>
-            <li>Pool / outdoor relaxation vibe</li>
-            <li>Ideal for road-trip and desert-tour guests</li>
-            <li>Warm Moroccan dining atmosphere</li>
-          </ul>
-          <a class="text-link" href="#contact">Request availability →</a>
-        </div>
-      </section>
+        </article>
 
-      <section class="gallery section" id="gallery">
-        <div class="section-head reveal">
-          <p class="eyebrow">Visual identity</p>
-          <h2>Gallery designed for premium presentation.</h2>
+        <article class="highlight-card reveal">
+          <span class="highlight-number">02</span>
+          <h3>Rose Valley character</h3>
           <p>
-            The layout below is ready for the hotel’s own official images. For now, I used carefully chosen Morocco-style visual placeholders
-            so the website already looks luxurious and complete.
+            The region is famous for its rose fields, artisanal products, and
+            unforgettable springtime beauty.
           </p>
-        </div>
+        </article>
 
-        <div class="gallery-grid">
-          <figure class="gallery-item large reveal image-hero-2">
-            <figcaption>Main visual / exterior atmosphere</figcaption>
-          </figure>
-          <figure class="gallery-item reveal image-two">
-            <figcaption>Pool / relaxation ambience</figcaption>
-          </figure>
-          <figure class="gallery-item reveal image-three">
-            <figcaption>Guest room / comfort style</figcaption>
-          </figure>
-          <figure class="gallery-item reveal image-four">
-            <figcaption>Rose Valley / regional mood</figcaption>
-          </figure>
-          <figure class="gallery-item reveal image-five">
-            <figcaption>Terrace / mountain light</figcaption>
-          </figure>
-        </div>
-      </section>
+        <article class="highlight-card reveal">
+          <span class="highlight-number">03</span>
+          <h3>Ideal road-trip stop</h3>
+          <p>
+            A strategic and charming place to stay while traveling between
+            Ouarzazate, Kelaat M'Gouna, Boumalne Dades, Todra, and Merzouga routes.
+          </p>
+        </article>
 
-      <section class="quote-band section reveal">
-        <div>
-          <p class="eyebrow">Positioning</p>
-          <h2>Not just a hotel website. A booking tool, a trust signal, and a better Google-facing identity.</h2>
-        </div>
-        <a class="btn btn-dark" href="#location">See the map</a>
-      </section>
+        <article class="highlight-card reveal">
+          <span class="highlight-number">04</span>
+          <h3>Warm local hospitality</h3>
+          <p>
+            A welcoming environment that gives guests a more personal and memorable
+            Moroccan travel experience.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-      <section class="amenities section reveal">
-        <div class="section-head">
-          <p class="eyebrow">Guest-focused details</p>
-          <h2>Sections that help the hotel look complete online.</h2>
-        </div>
-        <div class="amenity-grid">
-          <article>
-            <h3>Comfortable stopover</h3>
-            <p>Designed for guests arriving from Marrakech, Ouarzazate, the Dades Valley, or heading toward Merzouga.</p>
-          </article>
-          <article>
-            <h3>Relaxed atmosphere</h3>
-            <p>Pool, terrace, desert light, and warm evenings communicated through visual storytelling and spacious layout.</p>
-          </article>
-          <article>
-            <h3>Direct booking feel</h3>
-            <p>Fast contact buttons reduce friction and make WhatsApp the main conversion path for the owner.</p>
-          </article>
-          <article>
-            <h3>Professional image</h3>
-            <p>A polished landing page can justify a better room value and inspire more trust than a basic listing alone.</p>
-          </article>
-        </div>
-      </section>
+  <!-- =========================
+       GALLERY
+  ========================== -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-heading center reveal">
+        <span class="section-kicker">Gallery</span>
+        <h2>Moments, textures, and views</h2>
+        <p>
+          Replace these image files with the real hotel photos for a luxurious final presentation.
+        </p>
+      </div>
 
-      <section class="location section" id="location">
-        <div class="section-head reveal">
-          <p class="eyebrow">Location</p>
-          <h2>Easy to open, easy to follow, easy to share.</h2>
-        </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item large reveal">
+          <img src="assets/gallery-1.jpg" alt="Exterior view of Kasbah Safari Rose" />
+        </figure>
+        <figure class="gallery-item reveal">
+          <img src="assets/gallery-2.jpg" alt="Terrace or courtyard at the kasbah" />
+        </figure>
+        <figure class="gallery-item reveal">
+          <img src="assets/gallery-3.jpg" alt="Room detail at Kasbah Safari Rose" />
+        </figure>
+        <figure class="gallery-item reveal">
+          <img src="assets/gallery-4.jpg" alt="Landscape near Kelaat M'Gouna" />
+        </figure>
+        <figure class="gallery-item wide reveal">
+          <img src="assets/gallery-5.jpg" alt="Valley of Roses scenery in Morocco" />
+        </figure>
+      </div>
+    </div>
+  </section>
 
-        <div class="location-grid">
-          <div class="map-card reveal">
-            <iframe
-              title="Kasbah Safari Rose map"
-              src="https://www.google.com/maps?q=Kasbah%20Safari%20Rose%20Kelaat%20Mgouna&output=embed"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- =========================
+       EXPERIENCE
+  ========================== -->
+  <section class="section experience-section" id="experience">
+    <div class="container two-column reverse">
+      <div class="section-content reveal">
+        <span class="section-kicker">Experience</span>
+        <h2>Discover the spirit of southern Morocco</h2>
+        <p>
+          From the Valley of Roses to the dramatic roads of the Dades region,
+          this destination is made for travelers who love authenticity, scenery,
+          culture, and quiet beauty.
+        </p>
+
+        <div class="experience-list">
+          <div class="experience-item">
+            <h4>Explore the Valley of Roses</h4>
+            <p>
+              Discover one of Morocco’s most poetic landscapes, known for rose
+              cultivation, kasbah villages, and springtime color.
+            </p>
           </div>
 
-          <div class="contact-card reveal" id="contact">
-            <p class="eyebrow">Contact</p>
-            <h3>Kasbah Safari Rose</h3>
-            <p>Rose Valley area, near Kelaat M'Gouna / Boumalne Dades, Morocco</p>
+          <div class="experience-item">
+            <h4>Scenic drives and nearby wonders</h4>
+            <p>
+              Easily continue toward Boumalne Dades, Todra Gorge, desert excursions,
+              or the kasbah routes of the south.
+            </p>
+          </div>
 
-            <div class="contact-lines">
-              <a href="tel:+212608827761">+212 608 827 761</a>
-              <a href="https://wa.me/212608827761" target="_blank" rel="noopener">WhatsApp direct</a>
-              <a href="https://maps.google.com/?q=Kasbah+Safari+Rose+Kelaat+Mgouna" target="_blank" rel="noopener">Open in Google Maps</a>
-            </div>
-
-            <div class="cta-stack">
-              <a class="btn btn-dark" href="https://wa.me/212608827761" target="_blank" rel="noopener">Book on WhatsApp</a>
-              <a class="btn btn-light" href="tel:+212608827761">Call now</a>
-            </div>
-
-            <small>
-              Note: once the owner sends the exact official address, the map link can be updated in less than one minute.
-            </small>
+          <div class="experience-item">
+            <h4>A slower, more meaningful stay</h4>
+            <p>
+              Ideal for travelers who want beauty, silence, and a more intimate
+              connection to Morocco’s landscapes and traditions.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="faq section reveal">
-        <div class="section-head">
-          <p class="eyebrow">FAQ</p>
-          <h2>Simple answers for travelers.</h2>
-        </div>
-        <div class="faq-list">
-          <details>
-            <summary>How do guests contact the hotel?</summary>
-            <p>Through WhatsApp, direct phone call, or the Google Maps link for easy navigation.</p>
-          </details>
-          <details>
-            <summary>Can this site be connected to a custom domain?</summary>
-            <p>Yes. It can be published on a free subdomain first, then moved later to a professional domain name.</p>
-          </details>
-          <details>
-            <summary>Can the photos be replaced by the owner’s real photos?</summary>
-            <p>Yes. The gallery is already structured so you only replace image URLs or local image files.</p>
-          </details>
-          <details>
-            <summary>Can we add French or Arabic versions later?</summary>
-            <p>Yes. This template can easily be expanded into multilingual hotel pages.</p>
-          </details>
-        </div>
-      </section>
-    </main>
+      <div class="section-media reveal">
+        <img
+          src="assets/experience-valley-of-roses.jpg"
+          alt="Scenic landscape of the Valley of Roses near Kelaat M'Gouna"
+        />
+      </div>
+    </div>
+  </section>
 
-    <footer class="footer">
+  <!-- =========================
+       LOCATION
+  ========================== -->
+  <section class="section location-section" id="location">
+    <div class="container">
+      <div class="section-heading center reveal">
+        <span class="section-kicker">Location</span>
+        <h2>In the heart of the Valley of Roses</h2>
+        <p>
+          Located in Hdida, commune of Ait Ouassif, near Kelaat M'Gouna in Tinghir Province,
+          the kasbah offers direct access to one of the most iconic landscapes in southern Morocco.
+        </p>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-info reveal">
+          <div class="info-card">
+            <h3>Address</h3>
+            <p>Douar Hdida, CR Ait Ouassif, Kelaat M'Gouna, Tinghir, Morocco</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Nearby highlights</h3>
+            <ul>
+              <li>Valley of Roses</li>
+              <li>Kelaat M'Gouna</li>
+              <li>Boumalne Dades</li>
+              <li>Todra Gorge routes</li>
+              <li>Scenic desert road-trip circuits</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <h3>Travel note</h3>
+            <p>
+              Ideal for guests touring the south of Morocco between Ouarzazate,
+              Dades Valley, Tinghir, and the Sahara region.
+            </p>
+          </div>
+        </div>
+
+        <div class="map-card reveal">
+          <iframe
+            title="Kasbah Safari Rose location map"
+            src="https://www.google.com/maps?q=Douar+Hdida+CR+Ait+Ouassif+Kelaat+M%27Gouna+Tinghir+Morocco&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       CONTACT / BOOKING
+  ========================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-content reveal">
+        <span class="section-kicker">Contact</span>
+        <h2>Plan your stay</h2>
+        <p>
+          For reservations, availability, private stays, or travel questions,
+          get in touch directly.
+        </p>
+
+        <div class="contact-list">
+          <a href="tel:+212661935025" class="contact-item">
+            <span class="contact-label">Phone</span>
+            <strong>+212 661 935025</strong>
+          </a>
+
+          <a href="mailto:resa@kasbahdesroses.com" class="contact-item">
+            <span class="contact-label">Email</span>
+            <strong>resa@kasbahdesroses.com</strong>
+          </a>
+
+          <a
+            href="https://wa.me/212661935025"
+            class="contact-item"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="contact-label">WhatsApp</span>
+            <strong>Message us directly</strong>
+          </a>
+
+          <div class="contact-item">
+            <span class="contact-label">Address</span>
+            <strong>Hdida · Valley of Roses · Morocco</strong>
+          </div>
+        </div>
+      </div>
+
+      <form class="booking-form reveal" action="#" method="post">
+        <h3>Send a booking request</h3>
+
+        <div class="form-row">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required />
+        </div>
+
+        <div class="form-row two-fields">
+          <div>
+            <label for="checkin">Check-in</label>
+            <input type="date" id="checkin" name="checkin" />
+          </div>
+          <div>
+            <label for="checkout">Check-out</label>
+            <input type="date" id="checkout" name="checkout" />
+          </div>
+        </div>
+
+        <div class="form-row two-fields">
+          <div>
+            <label for="guests">Guests</label>
+            <select id="guests" name="guests">
+              <option value="1">1 Guest</option>
+              <option value="2">2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5+">5+ Guests</option>
+            </select>
+          </div>
+          <div>
+            <label for="room">Room Type</label>
+            <select id="room" name="room">
+              <option value="classic">Classic Double Room</option>
+              <option value="family">Family Room</option>
+              <option value="scenic">Scenic Kasbah Room</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Tell us about your trip, your preferred room, or any special request."
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-dark btn-full">Request Availability</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- =========================
+       FAQ
+  ========================== -->
+  <section class="section faq-section">
+    <div class="container">
+      <div class="section-heading center reveal">
+        <span class="section-kicker">FAQ</span>
+        <h2>Helpful information</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item reveal">
+          <summary>Where is Kasbah Safari Rose located?</summary>
+          <p>
+            The kasbah is located in Hdida, near Kelaat M'Gouna, in the Valley of Roses
+            area of Tinghir Province, southern Morocco.
+          </p>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>Is it a good stop during a southern Morocco road trip?</summary>
+          <p>
+            Yes. It is ideally placed for travelers exploring Ouarzazate, Kelaat M'Gouna,
+            Boumalne Dades, Todra Gorge, and desert circuits.
+          </p>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>How can I book a stay?</summary>
+          <p>
+            You can call, email, or send a WhatsApp message directly using the contact
+            details on this page.
+          </p>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>What makes this place special?</summary>
+          <p>
+            Its authentic kasbah atmosphere, peaceful setting, scenic surroundings,
+            and its location in one of Morocco’s most beautiful valleys.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       CTA BANNER
+  ========================== -->
+  <section class="cta-banner">
+    <div class="container cta-banner-inner reveal">
       <div>
-        <strong>Kasbah Safari Rose</strong>
-        <p>Rose Valley · Kelaat M'Gouna · Morocco</p>
+        <span class="section-kicker light">Kasbah Safari Rose</span>
+        <h2>Stay in the elegance of the Valley of Roses</h2>
       </div>
-      <div class="footer-links">
-        <a href="tel:+212608827761">Call</a>
-        <a href="https://wa.me/212608827761" target="_blank" rel="noopener">WhatsApp</a>
-        <a href="https://maps.google.com/?q=Kasbah+Safari+Rose+Kelaat+Mgouna" target="_blank" rel="noopener">Map</a>
+      <div class="cta-actions">
+        <a class="btn btn-light" href="https://wa.me/212661935025" target="_blank" rel="noopener">
+          Book on WhatsApp
+        </a>
+        <a class="btn btn-outline-light" href="tel:+212661935025">Call the Kasbah</a>
       </div>
-    </footer>
-  </div>
+    </div>
+  </section>
 
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>Kasbah Safari Rose</h3>
+        <p>
+          A boutique Moroccan stay in the Valley of Roses, near Kelaat M'Gouna,
+          where silence, scenery, and tradition meet.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <a href="#about">About</a>
+        <a href="#stay">Stay</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#experience">Experience</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <a href="tel:+212661935025">+212 661 935025</a>
+        <a href="mailto:resa@kasbahdesroses.com">resa@kasbahdesroses.com</a>
+        <p>Hdida, Valley of Roses, Morocco</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Kasbah Safari Rose. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- JavaScript file -->
   <script src="script.js"></script>
 </body>
 </html>
